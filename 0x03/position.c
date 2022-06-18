@@ -6,5 +6,7 @@ int main(void)
 	int n [SIZE];
 	int position, index;
 
+	for (position = 0; position < SIZE; position++)
+
 	return (0);
 }
