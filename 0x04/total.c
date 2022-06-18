@@ -14,5 +14,8 @@ int main(void)
 		total = total + product;
 	}
 
+	avg = (total/TOTAL-SIZE);
+	printf("Average is %f\n", avg);
+
 	return (0);
 }
