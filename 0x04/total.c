@@ -1,26 +1,30 @@
 #include <stdio.h>
 
-#define TOTAL-SIZE 20;
+#define TOTAL_SIZE 20
 
 int main(void)
 {
-	int date[TOTAL-SIZE];
+	int data[TOTAL_SIZE];
 	int total = 0, i, j, product;
 
-	for (i = 0; i < TOTAL-SIZE; i++)
+	for (i = 0; i < TOTAL_SIZE; i++)
 	{
-		product = i * TOTAL-SIZE;
-		date[i] = product;
+		product = i * TOTAL_SIZE;
+
+		data[i] = product;
+
 		total = total + product;
 	}
 
-	avg = (total/TOTAL-SIZE);
-	printf("Average is %f\n", avg);
+	float avg;
 
-	for (j = TOTAL-SIZE; j > 0; j--)
+	avg = (total / TOTAL_SIZE);
+	printf("Average is:  %f\n", avg);
+
+	for (j = TOTAL_SIZE; j > 0; j--)
 	{
-		printf("The Element at %d", j);
-		printf("is %d\n", date[i]);
+		printf("The Element at %d ", j);
+		printf("is:  %d\n", data[j]);
 	}
 
 
