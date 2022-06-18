@@ -13,9 +13,11 @@ int main(void)
 
 	for (index = 0; index < SIZE; index++)
 	{
-		printf("The Element at index %d is", index);
+		printf("The Element at index %d is: ", index);
 		printf("%d\n", n[index]);
 	}
+	
+	printf("Program End\n");
 
 	return (0);
 }
